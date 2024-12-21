@@ -1,4 +1,4 @@
-import React from "react";
+
 import {
   Box,
   Typography,
@@ -71,8 +71,9 @@ const AboutMe = () => {
             </Typography>
             <Button
               variant="outlined"
-              color="black"
+             
               sx={{
+                  color:"black",
                 borderRadius: "0px",
                 ":hover": {
                   backgroundColor: COLOR.darkBlack,
@@ -129,7 +130,7 @@ const AboutMe = () => {
            <Typography variant="body2" sx={{ color: 'text.secondary' }} mb={6}>
              {item.text2}
            </Typography>
-           <Button variant="outlined" color={COLOR.darkBlack} sx={{":hover":{
+           <Button variant="outlined"  sx={{color:COLOR.darkBlack,":hover":{
             color:COLOR.white,
             backgroundColor:COLOR.darkBlack,
             border:COLOR.darkBlack

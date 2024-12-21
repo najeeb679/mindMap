@@ -1,6 +1,5 @@
 import { COLOR } from "@muc/constant";
 import { Box, Typography, Button, Divider } from "@mui/material";
-import React from "react";
 
 const TreatmentTable = () => {
     const TreatmentTableData=[
@@ -24,7 +23,7 @@ const TreatmentTable = () => {
     <>
       
    <Box paddingY={15}>
-   {TreatmentTableData.map((item,i)=>(
+   {TreatmentTableData.map((item,)=>(
        <Box>
         <Divider sx={{width:'940px',mx:'auto'}}/>
          <Box

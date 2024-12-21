@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Box, Grid, Typography, Button } from "@mui/material";
 import { COLOR } from "@muc/constant";
 
@@ -98,8 +98,9 @@ const MyStory = () => {
               </Typography>
               <Button
                 variant="outlined"
-                color="black"
+                
                 sx={{
+                  color:"black",
                   ":hover": {
                     color: COLOR.white,
                     backgroundColor: COLOR.darkBlack,

@@ -1,15 +1,16 @@
-import React from "react";
+
 import Header from "../../components/Header/Header";
-import AboutMe from "../../components/AboutMe/AboutMe";
+
 import Testimonials from "../../components/Testimonials/Testimonials";
 import FormContainer from "../../components/FormContainer/FormContainer";
-import { AppLayout } from "@muc/layout";
+import AboutMe from "../../components/AboutMe/AboutMe";
+
 
 const HomeContainer = () => {
   return (
     <>
       <Header />
-      {/* <AboutMe /> */}
+      <AboutMe />
       <Testimonials />
       <FormContainer />
     </>

@@ -1,4 +1,4 @@
-import React from "react";
+
 
 import { Box, Button, Typography } from "@mui/material";
 import { COLOR } from "@muc/constant";
@@ -30,8 +30,9 @@ const Header = () => {
             Reiki and Energetic Treatments
           </Typography>
           <Button
-            color="white"
+         
             sx={{
+                 color:"white",
               fontSize: {md:'18px',sm:'14px',xs:'10px'},
               ":hover": {
                 color: "black",

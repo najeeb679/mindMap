@@ -1,4 +1,4 @@
-import React from 'react'
+
 import UpdateText from '../../components/UpdatesText/UpdatesText'
 import UpdateBox from '../../components/UpdateBox/UpdateBox'
 

@@ -1,4 +1,4 @@
-import { AppLayout, Footer, Navbar } from "@muc/layout";
+import { AppLayout,  } from "@muc/layout";
 import {
   AboutContainer,
   HomeContainer,
@@ -6,7 +6,7 @@ import {
   UpdateContainer,
 } from "@muc/modules";
 
-import React from "react";
+
 import { Route, Routes as ReactRoutes } from "react-router-dom";
 
 const Routes = () => {
